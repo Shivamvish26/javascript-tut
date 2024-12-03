@@ -51,6 +51,7 @@ console.log("Conditional Statements");
 // -----------------------------------------------------------------
 
 // Practice set 2
+
 //Question 1 :- Use a logical operators to find the age of the person lies between the age 1- to 20
 // let age = 35;
 // if (age >= 1 && age <= 20) {
@@ -58,6 +59,8 @@ console.log("Conditional Statements");
 // } else {
 //   console.log("Age does not lies between 1 to 20");
 // }
+
+// -----------------------------------------------------------------
 
 // Question 2 : - Demonstrate the use of switch case statement  in javascript
 // const expr = "Papaya";
@@ -73,6 +76,8 @@ console.log("Conditional Statements");
 //     console.log("No fruit is available");
 // }
 
+// -----------------------------------------------------------------
+
 // Question 3 : - Write a javascript program to find the whether a numbber  is divisible by 2 and 3.
 // let num = 10;
 // if (num % 2 == 0 && num % 3 == 0) {
@@ -81,6 +86,8 @@ console.log("Conditional Statements");
 //   console.log("Number is not divisible by 2 and 3");
 // }
 
+// -----------------------------------------------------------------
+
 // Question 4 : -  Write a javascript program to find the whether a numbber  is divisible by either 2 and 3.
 // let num = 10;
 // if (num % 2 == 0 || num % 3 == 0) {
@@ -88,3 +95,11 @@ console.log("Conditional Statements");
 // } else {
 //   console.log("Number is not divisible by either 2 or 3");
 // }
+
+// -----------------------------------------------------------------
+
+// Question 5 : - Print "You can drive" 0r "You cannot drive" based on age being gretaer than 18 using tenary operator.
+
+let age = 25;
+let a  = age > 20 ? "You can Drive" : "You can not drive"
+console.log(a)
