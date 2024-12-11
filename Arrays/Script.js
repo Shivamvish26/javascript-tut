@@ -70,3 +70,38 @@ let number = [1, 2, 3, 4, 5];
 // Slice Method
 // const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
 // console.log(fruits.slice(1,4))
+
+
+// classic for loop keep it in mind in array
+
+let num = [3,4,5,6,7,8]
+
+// for(let i=0; i<num.length; i++){
+//     console.log(num[i])
+// }
+
+// output :- 3,4,5,6,7,8
+
+// for each loop
+// num.forEach(element => {
+//     console.log(element*element)
+// });
+
+// Array . from
+// document.getElementsByClassName("relative z-[15]")
+// Array.from("a")
+
+// map function
+// let arr = [21,22,34];
+// let a = arr.map((value,index,array)=>{
+//     console.log(value,index,array)
+//     return value + index
+// })
+// console.log(a)
+
+// filter function
+let arr2 = [24,25,7,15,3,2,8]
+let a2 = arr2.filter((a2)=>{
+    return a2 < 10
+})
+console.log(a2)
