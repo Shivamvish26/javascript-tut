@@ -100,8 +100,19 @@ let num = [3,4,5,6,7,8]
 // console.log(a)
 
 // filter function
-let arr2 = [24,25,7,15,3,2,8]
-let a2 = arr2.filter((a2)=>{
-    return a2 < 10
-})
-console.log(a2)
+// let arr2 = [24,25,7,15,3,2,8]
+// let a2 = arr2.filter((a2)=>{
+//     return a2 < 10
+// })
+// console.log(a2)
+
+// Practice Questions
+
+// Question No:- 1
+let arr = [1,2,3,4,5,6,7,8,88]
+let a = prompt("Enter a number")
+a = Number.parseInt(a)
+arr.push(a)
+console.log(arr)
+
+// Question No: - 2
