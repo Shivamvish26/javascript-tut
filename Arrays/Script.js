@@ -54,7 +54,6 @@ let number = [1, 2, 3, 4, 5];
 // console.log(number);
 // console.log(number[1]);
 
-
 // reverse methos
 // console.log(number.reverse())
 
@@ -71,10 +70,9 @@ let number = [1, 2, 3, 4, 5];
 // const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
 // console.log(fruits.slice(1,4))
 
-
 // classic for loop keep it in mind in array
 
-let num = [3,4,5,6,7,8]
+let num = [3, 4, 5, 6, 7, 8];
 
 // for(let i=0; i<num.length; i++){
 //     console.log(num[i])
@@ -109,10 +107,39 @@ let num = [3,4,5,6,7,8]
 // Practice Questions
 
 // Question No:- 1
-let arr = [1,2,3,4,5,6,7,8,88]
-let a = prompt("Enter a number")
-a = Number.parseInt(a)
-arr.push(a)
-console.log(arr)
+// let arr = [1,2,3,4,5,6,7,8,88]
+// let a = prompt("Enter a number")
+// a = Number.parseInt(a)
+// arr.push(a)
+// console.log(arr)
 
 // Question No: - 2
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 88];
+// let a;
+// do {
+//    a = prompt("Enter a number");
+//   a = Number.parseInt(a);
+//   arr.push(a);
+// } while (a != 0);
+// console.log(arr);
+
+// Question No:- 3
+// let arr = [11, 22, 36, 42, 56, 66, 47, 86, 88, 30, 50, 60, 10];
+// let n = arr.filter((x) => {
+//   return x % 10 == 0;
+// });
+// console.log(n);
+
+// Question No:- 4
+// let arr = [1, 3, 4, 5, 6, 7, 8, 9];
+// let n = arr.map((x) => {
+//   return x * x;
+// });
+// console.log(n);
+
+// Question No:- 5
+// let arr = [1, 3, 4];
+// let n = arr.reduce((x1, x2) => {
+//   return x1 * x2;
+// });
+// console.log(n);
