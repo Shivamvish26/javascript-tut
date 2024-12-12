@@ -1,7 +1,7 @@
 console.log("Array");
 
 // Accessing the vlaues
-let number = [1, 2, 3, 4, 5];
+// let number = [1, 2, 3, 4, 5];
 // console.log(number)
 // console.log(number[0])
 // console.log(number[1])
@@ -143,3 +143,28 @@ let num = [3, 4, 5, 6, 7, 8];
 //   return x1 * x2;
 // });
 // console.log(n);
+
+// Generate a random number between 1 and 100
+let number = Math.floor(Math.random() * 100) + 1;
+let chances = 0;
+
+while (true) {
+  let guess = parseInt(prompt("Guess a number between 1 and 100:"), 10);
+
+  chances++;
+
+  if (guess === number) {
+    alert(`Correct! The number was ${number}.`);
+    break;
+  } else if (guess < number) {
+    alert("Too low! Try again.");
+  } else if (guess > number) {
+    alert("Too high! Try again.");
+  } else {
+    alert("Invalid input. Please enter a number.");
+  }
+}
+
+// Display the result
+totalPoints = 100 - chances;
+alert(`Game over! Your score: ${totalPoints}. Actual number: ${number}.`);
