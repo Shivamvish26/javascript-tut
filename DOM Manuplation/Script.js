@@ -9,16 +9,28 @@ let b = document.body;
 
 // Tabbles links
 
-let table = document.body.firstElementChild.firstElementChild;
-console.log("The first element child is:", table);
-console.log("Caption text:", table.caption.innerText);
-console.log("The Number of rows in table is", table.rows);
-console.log("Thhe head os the table is", table.thead);
-console.log("The body of the table is", table.tBodies[0]);
+// let table = document.body.firstElementChild.firstElementChild;
+// console.log("The first element child is:", table);
+// console.log("Caption text:", table.caption.innerText);
+// console.log("The Number of rows in table is", table.rows);
+// console.log("Thhe head os the table is", table.thead);
+// console.log("The body of the table is", table.tBodies[0]);
 
-console.log(typeof document);
+// console.log(typeof document);
 // object
-console.log(typeof window);
+// console.log(typeof window);
 // object
 
 
+// Practice Questions :- 
+// Question no 1:-
+// Create a navbar and change the color of the first element.
+document.getElementsByTagName("nav")[0].firstElementChild.style.color="red"
+
+// Question 2:-
+document.getElementsByTagName("nav")[0].lastElementChild.style.color = "green"
+
+// Question 3:-
+Array.from(document.getElementsByTagName("li")).forEach((element) =>{
+    element.style.background = "cyan";
+  })   
