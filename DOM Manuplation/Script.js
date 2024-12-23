@@ -21,16 +21,28 @@ let b = document.body;
 // console.log(typeof window);
 // object
 
-
-// Practice Questions :- 
+// Practice Questions :-
 // Question no 1:-
 // Create a navbar and change the color of the first element.
-document.getElementsByTagName("nav")[0].firstElementChild.style.color="red"
+document.getElementsByTagName("nav")[0].firstElementChild.style.color = "red";
 
 // Question 2:-
-document.getElementsByTagName("nav")[0].lastElementChild.style.color = "green"
+document.getElementsByTagName("nav")[0].lastElementChild.style.color = "green";
 
 // Question 3:-
-Array.from(document.getElementsByTagName("li")).forEach((element) =>{
-    element.style.background = "cyan";
-  })   
+Array.from(document.getElementsByTagName("li")).forEach((element) => {
+  element.style.background = "cyan";
+});
+
+function getdate() {
+  var currentDate = new Date();
+  console.log(currentDate);
+}
+
+getdate();
+
+console.log(Math.floor(Math.random() * 10));
+
+console.log(Math.floor(Math.random() * 100) + 1);
+
+console.log(Math.random() < 0.5);
